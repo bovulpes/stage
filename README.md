@@ -1,2 +1,1 @@
-# stage
-Stages informatique (équipes de recherche)
+# Stages informatique (équipes de recherche)
