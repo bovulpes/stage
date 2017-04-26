@@ -4,6 +4,8 @@
 #pragma link off all classes;
 #pragma link off all functions;
 
-#pragma link C++ class Event+;
+#pragma link C++ class MyProj::Event+;
+#pragma link C++ class MyProj::Event11+;
+#pragma link C++ class std::vector(double>+;
 
 #endif

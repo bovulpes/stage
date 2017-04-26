@@ -20,10 +20,10 @@ Event.$(ObjSuf): Event.h
 
 EventDict.$(SrcSuf): Event.h EventLinkDef.h
 	@echo "Generating dictionary $@..."
-	$(ROOTCINT) -f $@ -c $^
+	$(ROOTCLING) -f $@ -c $^
 
 .$(SrcSuf).$(ObjSuf):
 	$(CXX)  $(CXXFLAGS) -c $<
 
 clean:
-	@rm -f $(EVENTO) $(EVENTSO) *Dict.*
+	@rm -f $(EVENTO) $(EVENTSO) *Dict.* *.pcm
