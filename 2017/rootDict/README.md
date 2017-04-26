@@ -31,9 +31,11 @@ root.exe -b -q read.C+
 
 * Lire le fichier en mode interprété
 
+```bash
 root.exe
 .L read.C
 read()
+```
 
 * exécuter une macro (macro-instruction) dans ROOT en mode interprété
 
